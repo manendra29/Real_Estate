@@ -49,17 +49,6 @@ export const Layout = ({ children }) => {
                 </div>
               </a>
             </div>
-            <div className="p-2 flex-1 border border-blue-800">
-              <a
-                href="https://www.google.com/search?q=grow+infinity+realtors&rlz=1C1ONGR_enIN1124IN1124&oq=grow+infinity+realtors&gs_lcrp=EgZjaHJvbWUqDwgAECMYJxjjAhiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhUIARAuGCcYrwEYxwEYgAQYigUYjgUyBwgCEAAYgAQyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg3NjY2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#lrd=0x2f7b6f8aa4bbbca1:0xcd4a6a4f021202d4,3,,,,"
-                target="_blank"
-              >
-                <div className="flex justify-center items-center gap-3">
-                  <GoogleIcon />
-                  <p className="text-sm">Submit Google Review</p>
-                </div>
-              </a>
-            </div>
           </div>
         </div>
       </div>
