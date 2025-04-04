@@ -37,7 +37,7 @@ export const Layout = ({ children }) => {
       </div>
       <div className="hidden lg:block fixed bottom-10 left-9 z-50">
         <a
-          href="https://wa.me/+918750238581?text=Hello!%20I%20would%20like%20to%20inquire%20about%20your%20services"
+          href="https://wa.me/+911234567890?text=Hello!%20I%20would%20like%20to%20inquire%20about%20your%20services"
           target="_blank"
         >
           <img
@@ -53,7 +53,7 @@ export const Layout = ({ children }) => {
           <div className="flex item-center justify-between w-[100%]">
             <div className="p-2 flex-1 border border-blue-950">
               <a
-                href="https://wa.me/+918750238581?text=Hello!%20I%20would%20like%20to%20inquire%20about%20your%20services"
+                href="https://wa.me/+911234567890?text=Hello!%20I%20would%20like%20to%20inquire%20about%20your%20services"
                 target="_blank"
               >
                 <div className="flex justify-center items-center gap-3">

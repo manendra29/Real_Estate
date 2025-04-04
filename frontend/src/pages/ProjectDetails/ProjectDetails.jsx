@@ -134,7 +134,7 @@ export const ProjectDetails = () => {
                     Download PDF
                   </Button>
                   <a
-                    href={`https://wa.me/+918750238581?text=Hi I am interested in ${property?.name}, Please share the details.`}
+                    href={`https://wa.me/+911234567890?text=Hi I am interested in ${property?.name}, Please share the details.`}
                     target="_blank"
                   >
                     <Button
