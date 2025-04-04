@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
-import googlereview from "../assets/img/Google review button.jpeg";
 import whatsappfloat from "../assets/img/whatsapp float.png";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import GoogleIcon from "@mui/icons-material/Google";
@@ -22,19 +21,7 @@ export const Layout = ({ children }) => {
       {/* Footer */}
       <Footer />
 
-      {/* Google Review Button */}
-      <div className="hidden lg:block fixed bottom-10 right-10 z-50">
-        <a
-          href="https://www.google.com/search?q=grow+infinity+realtors&rlz=1C1ONGR_enIN1124IN1124&oq=grow+infinity+realtors&gs_lcrp=EgZjaHJvbWUqDwgAECMYJxjjAhiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhUIARAuGCcYrwEYxwEYgAQYigUYjgUyBwgCEAAYgAQyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg3NjY2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#lrd=0x2f7b6f8aa4bbbca1:0xcd4a6a4f021202d4,3,,,,"
-          target="_blank"
-        >
-          <img
-            src={googlereview}
-            alt="Google Review Button"
-            className="w-[120px] lg:w-[150px] cursor-pointer "
-          />
-        </a>
-      </div>
+     
       <div className="hidden lg:block fixed bottom-10 left-9 z-50">
         <a
           href="https://wa.me/+911234567890?text=Hello!%20I%20would%20like%20to%20inquire%20about%20your%20services"
